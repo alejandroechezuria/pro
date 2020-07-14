@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background: #fffffffA;
+}
+
+header{
+    width: 100%;
+}
+
+ header nav{
+    width: 80%;
+    max-width: 1500px;
+    margin: 20px auto;
+    background: #024950 ;
+}
+
+
+
+ header .mini_foto img {
+      width: 200px;
+      border-radius: 70%;
+      
+
+}
+
+
+header nav ul {
+    overflow: hidden;
+    list-style: none;
+}
+ header nav ul li{
+    float: left;
+    
+}
+header nav ul li a{
+    color: #ffffff;
+    padding: 20px;
+    text-decoration: none;
+    display: block;
+    
+    
+}
+header nav ul li a:hover{
+    background: #037e8c;
+}
+
