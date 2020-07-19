@@ -123,6 +123,7 @@ main .foto2{
     margin-left: auto;
     margin-right: auto;
     font-size: 55px;
+    flex-wrap: wrap;
 }
 main .mi{
      padding: 20px;
