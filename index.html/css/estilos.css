@@ -246,7 +246,7 @@ main .mi{
 } 
 .redes ul{
     display: flex;
-    margin: 20px;
+    margin: 10px;
     
 }
 .redes ul li{
@@ -257,7 +257,7 @@ main .mi{
     width: 200px;
     text-decoration: none;
     padding: 20px; 
-    text-align: center;
+    text-align:center;
     color:#1D2B64;
     min-width: 100px;
     min-height: 100px;  
@@ -320,8 +320,8 @@ textarea{
 
 
 
-@media  screen (max-width: 680px){
-    body { 
+  @media screen (max-width: 680px){
+    body{ 
         width:100%;
 
     }
@@ -330,7 +330,7 @@ textarea{
  @media screen (max-width:680px){
     main .mi{
      margin-left:0px ;
-     margin right:0px
-      ;         
+     margin right:0px;
+               
     }
  }
