@@ -33,12 +33,12 @@ box-sizing: border-box;
  }
     
 
-#P nav ul{
+ nav ul{
     margin: 20px;
     padding: 10px;
     
 }
-#p nav ul li{
+ nav ul li{
     margin: 20px;
     padding: 10px;
     display: inline-block;
@@ -46,15 +46,13 @@ box-sizing: border-box;
 
       
 }
-#p nav ul li a{
+ nav ul li a{
      text-decoration: none;
-      height: auto;   
+    padding: 15px 20px;   
      color: #fffffffA;
 }
-#p nav ul li a:hover{
+ nav ul li a:hover{
     background: #1D2B64;
-    padding: 0px;
-    margin: 0px;
     cursor: pointer;
 }
 #p #cabeza{
@@ -321,14 +319,14 @@ textarea{
 
 
 
-  @media screen (max-width: 680px){
+  @media (max-width: 680px){
     body{ 
         width:100%;
 
     }
     
 }
- @media screen (max-width:680px){
+ @media  (max-width:680px){
     main .mi{
      margin-left:0px ;
      margin right:0px;
