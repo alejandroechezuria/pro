@@ -306,16 +306,20 @@ textarea{
    font-size: 15px;
      
 }
+
+
+
  #boton{
     background: #31384A;
     color: #fffffffA;
     padding: 10px;
+    
+
 }
 #boton:hover{
     background: #000000;
     cursor: pointer;
 }
-
 
 
 
@@ -329,7 +333,7 @@ textarea{
  @media  (max-width:680px){
     main .mi{
      margin-left:0px ;
-     margin right:0px;
+     margin-right: 0px;
                
     }
  }

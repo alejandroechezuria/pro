@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, user -scalabe=no, initial-scale=1.0, maximun-scalabe=1.0, minimun-scalabe=1.0">
@@ -143,20 +143,26 @@
                     <li><a href="http://github.com/alejandroechezuria" target="blank"><i class="icon-github"></i></a></li>
                   </ul>
              </div>
-             <form action="" method="">
-               <input type="text" name="Nome" placeholder="Nome" required>
-               <input type="text" name="Assunto" placeholder="Assunto" required>
-               <input type="text" name="E-mail" placeholder="E-mail" required>
-               <textarea name="Menssagen" placeholder="Escreva Aqui Seu Menssagen" ></textarea>
-               <input type="button" value="ENVIAR" id="boton">
 
-
-
+          <form id="from"  action="" method="">
+            <label>
+                 <input type="text" name="Nome" id="Nome"      placeholder="Nome:" required>
+            
+            
+                 <input type="text" name="Assunto" id="Assunto" placeholder="Assunto:" required>
+            
+                 <input type="text" name="email"  id="email" placeholder="jose@doani.com" >
+                          
+                 <textarea name="Menssagen" placeholder="Escreva Aqui Seu Menssagen" ></textarea>
+             
+                 <input type="submit"  id="boton"  onclick=" return enviarFormulario()"; value="Enviar">
+            </label>
+            
           </form>
+          <div id="error"> </div>
+        </section>
 
-      </section>
-    
-
+        <script src="a.js"> </script>
 
 </body>
 </html>
