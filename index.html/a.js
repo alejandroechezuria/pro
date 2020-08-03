@@ -54,7 +54,7 @@ fetch("https://api.github.com/users/alejandroechezuria/repos")
       <a href="${data[cont].html_url}" target="blank_"> ${data[cont].name} </a>
       
       </li>
-   `;
+      ;
     }
   });
 
