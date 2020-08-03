@@ -30,3 +30,36 @@ function enviarFormulario() {
 
     return false;
 }
+
+
+
+
+
+
+
+
+let portafolio = document.querySelector("#portafolio");
+fetch("https://api.github.com/users/alejandroechezuria/repos")
+  .then(function (response) {
+    return response.json();
+  })
+  .then(function (data) {
+    console.log(data.length);
+    let cont = 0;
+    for (cont = 0; cont < data.length; cont++) {
+      portafolio.innerHTML += `
+      
+      <li class="nuevos">
+      
+      <a href="${data[cont].html_url}" target="blank_"> ${data[cont].name} </a>
+      
+      </li>
+   `;
+    }
+  });
+
+
+
+
+
+
