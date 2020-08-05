@@ -6,6 +6,7 @@ let error= document.getElementById('error')
 error.style.color='red';
 
 
+
 function enviarFormulario() {
     console.log('enviando')
     let messagemError = [ ];
