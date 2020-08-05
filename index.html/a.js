@@ -12,15 +12,15 @@ function enviarFormulario() {
    
 
  if (Nome.value==null || Nome.value=='') {
-     messagemError.push('digite seu nome ')
+     messagemError.push('digite seu nome, cerifique as dato ')
      
  }
  if (Assunto.value== null || Assunto.value=='') {
     
-        messagemError.push('escriba Asunto')
+        messagemError.push('Escriba Asunto')
  }
  if (email.value.search('@')== -1||email.value == null || email.value =='') {
-    messagemError.push('email @ invali ') 
+    messagemError.push('E-ail @ invali Verifique os Datos ') 
      
  }
     
@@ -31,6 +31,13 @@ function enviarFormulario() {
     return false;
 }
 
+
+
+
+
+
+  
+   
 
 
 
@@ -47,18 +54,16 @@ fetch("https://api.github.com/users/alejandroechezuria/repos")
     console.log(data.length);
     let cont = 0;
     for (cont = 0; cont < data.length; cont++) {
-      portafolio.innerHTML += `
+      listak.innerHTML += `
       
-      <li class="nuevos">
+      
       
       <a href="${data[cont].html_url}" target="blank_"> ${data[cont].name} </a>
       
-      </li>
-      ;
-    }
+      
+    
+  ` }
   });
-
-
 
 
 
